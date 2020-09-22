@@ -10,9 +10,12 @@
         type="image/x-icon">
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <!-- stylesheet -->
     <link rel="stylesheet" href="resource/common.css">
+    <link rel="stylesheet" href="resource/location.css">
     <script src="resource/common.js"></script>
+    <script src="resource/location.js"></script>
 </head>
 
 <body>
@@ -262,7 +265,13 @@
     </section>
     <!-- LOCATION HTML -->
     <section id="section-5"> 
-        <div class="loaction-section con">매장찾기 섹션</div>
+        <?php
+            include_once "location.php";
+        ?>
+    </section>
+    <!-- FOOTER HTML -->
+    <section id="footer">
+        <div>footer 부분 뭐라하지</div>
     </section>
 </body>
 

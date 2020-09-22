@@ -1,0 +1,11 @@
+.store-popup {
+    font-size:14px;
+    font-weight:bold;
+    background: #fff;
+    color:#000;
+    padding:10px 30px;
+    
+}
+.store-name {
+    border:1px solid red;
+}
