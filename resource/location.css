@@ -1,11 +1,43 @@
+#section-5 {
+    color: #fff;
+}
+.store-section > .title {
+    padding-top: 80px;
+}
+.store-section > .title > img {
+    width: auto;
+    height: 35px;
+}
+.store-section > h5 {
+    margin: 10px 0 20px 0;
+}
+/* kakao-map popup 커스텀 */
+#map {
+    border:2px solid #976d3f;
+}
+
 .store-popup {
-    font-size:14px;
     font-weight:bold;
     background: #fff;
-    color:#000;
-    padding:10px 30px;
-    
+    color: #222222;
+    height: 100%;
+    left: 0;
+    bottom: 40px;
+    width: 280px;
+    height: 130px;
+    margin-left: -144px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 .store-name {
-    border:1px solid red;
+    padding: 15px 10px;
+    font-size:18px;
+    font-weight: bold;
+    background: #222222;
+    color: #dddddd;
+    text-align:center;
+}
+.store-location {
+    padding: 5px 10px;
 }

@@ -1,0 +1,43 @@
+/* home 커스텀 */
+
+#section-1 > .background-img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-back-img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: inherit;
+    opacity: 15%;
+}
+#section-1 > .home-section > .main-logo {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px;
+}
+#section-1 > .home-section > .text-box > .title-1 {
+    margin-top: 200px;
+}
+#section-1 > .home-section > .text-box > .title-2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+#section-1  > .home-section > .guide-arrow > .btn {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80px;
+    height: 30px;
+    bottom:-150px;
+    cursor: pointer;
+}

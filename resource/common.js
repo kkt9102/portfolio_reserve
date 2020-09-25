@@ -1,3 +1,9 @@
+function alerted(){
+	$('.alerted > .alert-box > .close-btn > .close-text').click(function(){
+		$('.alerted').removeClass('active');
+	})
+}
+
 /* hasClass */
 function hasClass__init(){
     $('.menu-btn').click(function(){
@@ -63,6 +69,7 @@ function guide_btn() {
     });
 }
 $(function(){
+    alerted();
     hasClass__init();
     popup_item();
     guide_arrow();

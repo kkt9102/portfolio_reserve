@@ -79,11 +79,17 @@ a {
 .flex {
     display: flex;
 }
+.flex-1-0-0 {
+    flex:1 0 0;
+}
 .flex-jc-c {
     justify-content: center;
 }
 .flex-jc-sa {
     justify-content: space-around;
+}
+.flex-jc-sb {
+    justify-content: space-between;
 }
 .flex-ai-c {
     align-items: center;
@@ -110,13 +116,57 @@ a {
 .bg-976d3f {
     background: #976d3f;
 }
+.font-weight-bold {
+    font-weight: bold;
+}
 .font-size-35 {
     font-size: 35px;;
 }
 .font-size-30 {
     font-size: 30px;
 }
-
+.font-size-14 {
+    font-size: 14px;
+}
+.font-size-13 {
+    font-size: 13px;
+}
+/* alerted 커스텀 */
+.alerted.active {
+    display: block;
+  }
+  .alerted {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+  }
+  .alerted > .alert-box {
+    padding: 50px;
+    background: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  
+  .alerted > .alert-box > .close-btn {
+    margin-top: 20px;
+  }
+  
+  .alerted > .alert-box > .close-btn > .close-text {
+    padding: 5px 15px;
+    border:1px dotted #000;
+    cursor: pointer;
+  }
+  .alerted > .alert-box > .close-btn:active > .close-text {
+    background: #efefef;
+  }
+  /* alerted 커스텀 끝 */
 
 /* menu-btn 커스텀 */
 .menu-btn {
@@ -187,7 +237,7 @@ a {
 .menu-box > ul > li> a > span::after {
     content: "";
     bottom:0;
-    left:50%;
+    left:0%;
     position: absolute;
     width: 0;
     height: 5px;
@@ -195,302 +245,14 @@ a {
     transition: width .3s;
 }
 .menu-box > ul > li > a:hover > span::after {
-    width: 50%;
+    width: 100%;
 }
-.menu-box > ul > li> a > span::before {
-    content: "";
-    bottom:0;
-    right:50%;
-    position: absolute;
-    width: 0;
-    height: 5px;
-    background: #976d3f;
-    transition: width .3s;
-}
-.menu-box > ul > li > a:hover > span::before {
-    width: 50%;
-}
+
 body {
     background: #222222;
 }
 #section-1,#section-2,#section-3,#section-5 {
     height: 100vh;
 }
-#section-4 {
-    height: 100%;
-}
-/* home 커스텀 */
-
-#section-1 > .background-img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-back-img-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    z-index: inherit;
-    opacity: 15%;
-}
-#section-1 > .home-section > .main-logo {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 350px;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 150px;
-}
-#section-1 > .home-section > .text-box > .title-1 {
-    margin-top: 200px;
-}
-#section-1 > .home-section > .text-box > .title-2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 40px;
-}
-#section-1  > .home-section > .guide-arrow > .btn {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/arrow.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 80px;
-    height: 30px;
-    bottom:-150px;
-    cursor: pointer;
-}
-/* section-2 커스텀 */
-#section-2 > .about-reserve-section {
-    height: 50%;
-}
-#section-2 > .about-reserve-section > .title {
-    padding-top: 80px;
-}
-#section-2 > .about-reserve-section > .text-box > .title-1 {
-    margin-top: 30px;
-    font-size: 21px;
-    font-weight: 600;
-}
-#section-2 > .about-reserve-section > .text-box > .title-2 {
-    margin-top: 20px;
-    font-weight: bold;
-}
-#section-2 > .about-reserve-section > .text-box > .sub-text{
-    margin-top: 60px;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-#section-2 > .bottom-img > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve-info.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 42%;
-    position: absolute;
-    bottom:0;
-    opacity: 30%;
-}
-/* #section-3 커스텀 */
-#section-3 > .extraction-section > .title {
-    padding-top: 80px;
-}
-#section-3 > .extraction-section > .text-box > .title-1 {
-    margin-top: 15px;
-    font-size: 23px;
-    font-weight: 700;
-}
-#section-3 > .extraction-section > .text-box > .title-2 {
-    font-weight: bold;
-}
-#section-3 > .extraction-section> .extraction-list {
-    margin-top: 40px;
-}
-#section-3 > .extraction-section> .extraction-list > ul {
-    height: 350px;
-}
-#section-3 > .extraction-section> .extraction-list > ul > li {
-    cursor: pointer;
-}
-#section-3 > .extraction-section> .extraction-list > ul > .up-position {
-    align-self: flex-start;
-}
-#section-3 > .extraction-section> .extraction-list > ul > .down-position {
-    align-self: flex-end;
-}
-#section-3 > .bottom-img > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve-section-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 50%;
-    width: 100%;
-    height: 280px;
-    position: absolute;
-    bottom:0;
-    opacity: .3;
-}
 
 
-/* popup-item 커스텀 */
-li >.popup.selected{
-    opacity:1;
-    visibility:visible;
-}
-.popup {
-    width:700px;
-    height:700px;
-    border:1px solid #000;
-    background: #222;
-    left: 50%;
-    top:10%;
-    transform:translatex(-50%);
-    box-sizing:border-box;
-    padding:30px 50px;
-    border-radius:5px;
-    border:2px solid #976d3f;
-    opacity:0;
-    visibility:hidden;
-    transition:opacity .3s, visibility .3s;
-    z-index: 50;
-}
-.popup > .close-btn {
-    width:100%;
-    height:30px;
-    position:relative;
-    cursor:pointer;
-}
-.popup > .close-btn > div {
-    width:30px;
-    height:3px;
-    background: #976d3f;
-    position:absolute;
-    right:0;
-    top:50%;
-    transform:translatey(-50%) rotate(45deg);
-}
-.popup > .close-btn > div:last-child {
-    transform:translatey(-50%) rotate(-45deg);
-}
-.popup > .title-1 {
-    font-size:35px;
-    font-weight:bold;
-    margin-bottom: 20px;
-    color:#976d3f;
-}
-.popup > .title-2 {
-    font-size:30px;
-    font-weight:bold;
-    margin-bottom: 40px;
-    color:#976d3f;
-}
-.popup > .img {
-    
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-    width:600px;
-    height:260px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius:5px;
-    border:1px solid #976d3f;
-}
-.popup > .text {
-    font-weight:bold;
-    line-height:2;
-    text-align:center;
-    color: #fff;
-    margin-top: 40px;
-}
-/* popup img 커스텀 */
-.clover > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/clover-view.png);
-}
-.black-eagle > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/black-eagle-view.png);
-}
-.poc > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/poc-view.png);
-}
-.siphon > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/siphon-view.png);
-}
-.chemex > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/chemex-view.png);
-}
-.cold-brew > .popup > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/cold-brew-view.png);
-}
-/* #section-4 커스텀 */
-#section-4 > .reserve-coffee-section > .title {
-    padding-top: 100px;
-}
-#section-4 > .reserve-coffee-section > .text-box > .title-1 {
-    margin-top: 40px;
-    font-size: 21px;
-    font-weight: 600;
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > li {
-    width: calc(100%/4);
-}
-
-/* coffee img 커스텀 */
-
-#section-4 > .reserve-coffee-section > .coffee-list > ul > li {
-    margin-top: 40px;
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > li > a > .img {
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:250px;
-    height: 260px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: transform .3s;
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > li:hover > a > .img {
-    transform: scale(1.2);
-} 
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-11 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-10 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/la-reserva.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-9 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/hingakawa.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-8 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/blue-mountain.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-7 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/sapan-village.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-6 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/honey-process.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-5 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/mountain-farm.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-4 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/zacapa-valleys.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-3 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/lomas-initiative.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-2 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/la-palma.png);
-}
-#section-4 > .reserve-coffee-section > .coffee-list > ul > .item-1 > a > .img {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/peaberry.png);
-}
-#section-5 {
-    color: #fff;
-}
-/* footer 커스텀 */
-#footer {
-    background: #000;
-}

@@ -1,0 +1,49 @@
+
+/* #section-3 커스텀 */
+#section-3 > .extraction-section > .title {
+    padding-top: 80px;
+}
+#section-3 > .extraction-section > .title > img {
+    width: auto;
+    height: 35px;
+}
+#section-3 > .extraction-section > .text-box > .title-1 {
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 700;
+}
+#section-3 > .extraction-section > .text-box > .title-2 {
+    font-weight: bold;
+}
+#section-3 > .extraction-section> .extraction-list {
+    margin-top: 40px;
+}
+#section-3 > .extraction-section> .extraction-list > ul {
+    height: 350px;
+}
+#section-3 > .extraction-section> .extraction-list > ul > li {
+    cursor: pointer;
+}
+#section-3 > .extraction-section> .extraction-list > ul > li > a > img {
+    transition: box-shadow .3s;
+}
+#section-3 > .extraction-section> .extraction-list > ul > li > a:hover > img {
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+#section-3 > .extraction-section> .extraction-list > ul > .up-position {
+    align-self: flex-start;
+}
+#section-3 > .extraction-section> .extraction-list > ul > .down-position {
+    align-self: flex-end;
+}
+#section-3 > .bottom-img > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve-section-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    bottom:0;
+    opacity: .3;
+}

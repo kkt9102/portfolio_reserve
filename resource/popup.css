@@ -1,0 +1,101 @@
+/* 추출방법 popup-item 커스텀 */
+li >.popup.selected{
+    opacity:1;
+    visibility:visible;
+}
+.popup {
+    width:700px;
+    height:620px;
+    border:1px solid #000;
+    background: #000;
+    left: 50%;
+    top:10%;
+    transform:translatex(-50%);
+    box-sizing:border-box;
+    padding:30px 50px;
+    border-radius:5px;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity .3s, visibility .3s;
+    z-index: 50;
+}
+
+.popup > .close-btn {
+    width:100%;
+    height:30px;
+    position:relative;
+    cursor:pointer;
+}
+.popup > .close-btn > div {
+    width:30px;
+    height:3px;
+    background: #976d3f;
+    position:absolute;
+    right:0;
+    top:50%;
+    transform: rotate(45deg);
+}
+.popup > .close-btn > div:last-child {
+    transform:rotate(-45deg);
+}
+.popup > .title-1 {
+    font-size:50px;
+    font-weight:bold;
+    color:#976d3f;
+}
+.popup > .title-2 {
+    font-size:23px;
+    font-weight:400;
+    color:#9e958b;
+    margin-bottom: 25px;
+    
+}
+.popup > .img {
+    
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    width:600px;
+    height:260px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+/*     border:1px solid #976d3f; */
+}
+.popup > .text {
+    font-weight:bold;
+    line-height:1.5;
+    text-align:left;
+    color: #9e958b;
+    margin-top: 45px;
+    margin-left: 25px;
+    letter-spacing:-1.3px;
+    
+}
+.popup > .text::before {
+    content:"";
+    left:50px;
+    position:absolute;
+    width:3px;
+    height:50px;
+    background: #976d3f;
+}
+/* popup img 커스텀 */
+.clover > .popup > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/clover-view.png);
+}
+.black-eagle > .popup > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/black-eagle-view.png);
+}
+.poc > .popup > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/poc-view.png);
+}
+.siphon > .popup > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/siphon-view.png);
+}
+.chemex > .popup > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/chemex-view.png);
+}
+.cold-brew > .popup > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/cold-brew-view.png);
+}

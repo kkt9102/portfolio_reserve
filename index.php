@@ -13,12 +13,28 @@
     
     <!-- stylesheet -->
     <link rel="stylesheet" href="resource/common.css">
+    <link rel="stylesheet" href="resource/section-1.css">
+    <link rel="stylesheet" href="resource/section-2.css">
+    <link rel="stylesheet" href="resource/section-3.css">
+    <link rel="stylesheet" href="resource/section-4.css">
     <link rel="stylesheet" href="resource/location.css">
+    <link rel="stylesheet" href="resource/footer.css">
+    <link rel="stylesheet" href="resource/popup.css">
+    <!-- javascript -->
     <script src="resource/common.js"></script>
     <script src="resource/location.js"></script>
 </head>
-
+<!-- 모작페이지 알람 -->
+<div class="alerted active">
+  <div class="alert-box inline-block">이 페이지는 포트폴리오를 위한 모작페이지 입니다.
+    <div class="close-btn text-align-center">
+      <div class="close-text inline-block">확인</div>
+    </div>
+  </div>
+</div>
+<!-- 모작페이지 알람 끝 -->
 <body>
+
     <!-- top-menu-bar HTML -->
     <div class="menu-btn fixed">
         <div class="bg-976d3f"></div>
@@ -52,7 +68,7 @@
     <section id="section-2" class="relative">
         <div class="about-reserve-section con">
             <div class="title text-align-center"><img
-                    src="https://kkt9102.github.io/img1/blog/article/portfolio/reserve/starbucks-reserve-text.png"
+                    src="https://kkt9102.github.io/img1/blog/article/portfolio/reserve/section-2-title.png"
                     alt=""></div>
             <div class="text-box color-bbb text-align-center">
                 <div class="title-1">가장 진귀하고 이국적이며 정교한 풍미의 커피</div>
@@ -72,7 +88,7 @@
     <section id="section-3" class="relative">
         <div class="extraction-section con">
             <div class="title text-align-center"><img
-                    src="https://kkt9102.github.io/img1/blog/article/portfolio/reserve/secrion-2-title.png" alt="">
+                    src="https://kkt9102.github.io/img1/blog/article/portfolio/reserve/section-3-title.png" alt="">
             </div>
             <div class="text-box color-bbb text-align-center">
                 <div class="title-1">스타벅스 리저브에서만 느낄 수 있는 특별한 6가지 추출방식을 통해 색다른 리저브를 즐겨보세요.</div>
@@ -195,7 +211,7 @@
     <section id="section-4">
         <div class="reserve-coffee-section con">
             <div class="title text-align-center">
-                <img src="https://kkt9102.github.io/img1/blog/article/portfolio/reserve/section-3-title.png" alt="">
+                <img src="https://kkt9102.github.io/img1/blog/article/portfolio/reserve/section-4-title.png" alt="">
             </div>
             <div class="text-box color-bbb text-align-center">
                 <div class="title-1">스타벅스 리저브™에서 느끼는 전세계의 특별한 커피들</div>
@@ -271,7 +287,37 @@
     </section>
     <!-- FOOTER HTML -->
     <section id="footer">
-        <div>footer 부분 뭐라하지</div>
+        <div class="footer-section con">
+            <nav class="footer-menu-box-1">
+                <ul class="flex flex-jc-sa font-size-14 color-bbb font-weight-bold">
+                    <li class="color-976d3f"><a href="#" class="block"><span>개인정보처리방침</span></a></li>
+                    <li><a href="#" class="block"><span>영상정보처리기기 운영관리 방침</span></a></li>
+                    <li><a href="#" class="block"><span>홈페이지 이용약관</span></a></li>
+                    <li><a href="#" class="block"><span>위치정보 이용약관</span></a></li>
+                    <li><a href="#" class="block"><span>스타벅스 카드 이용약관</span></a></li>
+                    <li><a href="#" class="block"><span>비회원 이용약관</span></a></li>
+                    <li><a href="#" class="block"><span>My DT Pass 서비스 이용약관</span></a></li>
+                    <li><a href="#" class="block"><span>윤리경영 핫라인</span></a></li>
+                </ul>
+            </nav>
+            <div class="flex flex-jc-c flex-ai-c">
+                <nav class="footer-menu-box-2">
+                    <ul class="flex flex-jc-c font-size-14 color-bbb font-weight-blod">
+                        <li><a href="#" class="block"><span>찾아오시는 길</span></a></li>
+                        <li><a href="#" class="block"><span>신규입점제의</span></a></li>
+                        <li><a href="#" class="block"><span>스타벅스 코리아 홈페이지</span></a></li>
+                    </ul>
+                </nav>
+                <div class="footer-logo flex">
+                    <div class="starbucks-logo flex-1-0-0"></div>
+
+                </div>
+            </div>
+            <div class="bottom-text color-bbb text-align-center">
+                <p class="buisnessman font-size-14"><span>사업자등록번호 : 201-81-21515</span><span>(주)스타벅스커피 코리아 대표이사 : 송 데이비드 호섭</span><span>TEL : 1522-3232</span><span>개인정보 책임자 : 장석현</span></p>
+                <p class="copyright font-size-13">ⓒ 2020 Starbucks Coffee Company. All Rights Reserved.</p>
+            </div>
+        </div>
     </section>
 </body>
 

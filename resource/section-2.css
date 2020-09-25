@@ -1,0 +1,37 @@
+
+/* section-2 커스텀 */
+#section-2 > .about-reserve-section {
+    height: 50%;
+}
+#section-2 > .about-reserve-section > .title {
+    padding-top: 80px;
+}
+#section-2 > .about-reserve-section > .title > img {
+    width: auto;
+    height: 35px;
+}
+#section-2 > .about-reserve-section > .text-box > .title-1 {
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 600;
+}
+#section-2 > .about-reserve-section > .text-box > .title-2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+#section-2 > .about-reserve-section > .text-box > .sub-text{
+    margin-top: 60px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#section-2 > .bottom-img > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 42%;
+    position: absolute;
+    bottom:0;
+    opacity: 30%;
+}
