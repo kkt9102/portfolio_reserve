@@ -120,10 +120,16 @@ a {
     font-weight: bold;
 }
 .font-size-35 {
-    font-size: 35px;;
+    font-size: 35px;
 }
 .font-size-30 {
     font-size: 30px;
+}
+.font-size-21 {
+    font-size: 21px;
+}
+.font-size-15 {
+    font-size:15px;
 }
 .font-size-14 {
     font-size: 14px;
@@ -149,7 +155,7 @@ a {
     padding: 50px;
     background: #fff;
     position: absolute;
-    top:50%;
+    top:20%;
     left:50%;
     transform: translateY(-50%) translateX(-50%);
   }

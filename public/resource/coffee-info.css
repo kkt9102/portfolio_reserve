@@ -1,0 +1,88 @@
+.coffee-info {
+    margin-top: 70px;
+}
+.coffee-info > .sub-line {
+    width: 100%;
+}
+.coffee-info > .sub-line > .eng-name {
+    padding-bottom: 20px;
+}
+.coffee-info > .sub-line > .eng-name::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    bottom:0;
+    left:0;
+    background: #976d3f;
+}
+.coffee-info > .sub-line > .this-position > a:hover {
+    text-decoration: underline;
+}
+.coffee-info > .coffee-item-box {
+    margin-top: 40px;
+}
+.coffee-info > .coffee-item-box > .coffee-img,
+.coffee-info > .coffee-item-box > .coffee-characteristic {
+    width: 45%;
+}
+.coffee-info > .coffee-item-box > .coffee-img {
+    height: 600px;
+}
+.Ukambani > .coffee-item-box > .coffee-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-info.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+
+.coffee-info > .coffee-item-box > .coffee-characteristic::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    top:0;
+    left:0;
+    background: #976d3f;
+}
+
+.coffee-info > .coffee-item-box > .coffee-characteristic > .tasting-note {
+    margin-top: 20px;
+}
+.coffee-info > .coffee-item-box > .coffee-characteristic > li {
+    padding: 10px 0;
+    border-bottom:1px solid #976d3f;
+}
+.coffee-info > .coffee-item-box > .coffee-characteristic > li > .contents {
+    padding: 10px 0;
+}
+.coffee-info > .coffee-item-box > .coffee-characteristic > li > .contents > span {
+    margin: 0 5px;
+}
+.coffee-info > .coffee-item-box > .coffee-characteristic > li > .contents > span:first-child {
+    margin-left: 15px;
+}
+.coffee-info > .coffee-story {
+    border-top:2px solid #976d3f;
+}
+.coffee-info > .coffee-story > p {
+    width: 70%;
+}
+.coffee-info > .coffee-story > .origin-map {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg?dummyadsad23543543) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 119px;
+}
+.coffee-info .score-on {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/info-score-on.png) no-repeat 0 0;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.coffee-info .score-off {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/info-score-off.png) no-repeat 0 0;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
