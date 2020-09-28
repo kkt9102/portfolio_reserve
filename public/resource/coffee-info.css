@@ -43,13 +43,14 @@
     left:0;
     background: #976d3f;
 }
-
+.coffee-info > .coffee-item-box > .coffee-characteristic {
+    padding-top: 55px;
+}
 .coffee-info > .coffee-item-box > .coffee-characteristic > .tasting-note {
     margin-top: 20px;
 }
 .coffee-info > .coffee-item-box > .coffee-characteristic > li {
-    padding: 10px 0;
-    border-bottom:1px solid #976d3f;
+    padding: 8px 0;
 }
 .coffee-info > .coffee-item-box > .coffee-characteristic > li > .contents {
     padding: 10px 0;
@@ -62,15 +63,42 @@
 }
 .coffee-info > .coffee-story {
     border-top:2px solid #976d3f;
+    padding-top: 10px;
 }
-.coffee-info > .coffee-story > p {
+.coffee-info > .design-story {
+    margin-bottom: 40px;
+}
+.coffee-info > .coffee-story > .title,
+.coffee-info > .design-story > .title {
+    width: 100%;
+}
+.coffee-info > .coffee-story > p,
+.coffee-info > .design-story > p  {
     width: 70%;
 }
+.coffee-info > .coffee-story > .coffee-intro,
+.coffee-info > .design-story > .design-intro {
+    word-break: keep-all;
+    line-height: 1.5;
+    font-size: 15.2px;
+    letter-spacing: -0.5px;
+    word-spacing: 1.5px;
+}
 .coffee-info > .coffee-story > .origin-map {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg?dummyadsad23543543) no-repeat 0 0;
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
     background-size: contain;
     width: 335px;
     height: 119px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.coffee-info > .design-story > .design-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-design.png) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 124px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .coffee-info .score-on {
     background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/info-score-on.png) no-repeat 0 0;

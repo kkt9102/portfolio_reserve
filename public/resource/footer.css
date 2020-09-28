@@ -56,20 +56,17 @@
     width: 100%;
 }
 
-#footer > .footer-section > div  > .footer-logo > .starbucks-logo {
+#footer > .footer-section > .footer-logo > .starbucks-logo {
     background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/footer-logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     width:100px;
     height:100px;
+    position: absolute;
+    right: 0;
+    bottom:0%;
 }
-#footer > .footer-section > div  > .footer-logo > .reserve-logo {
-    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:100px;
-    height:85px;
-}
+
 #footer > .footer-section > .bottom-text > p > span {
     margin: 0 5px;
 }
