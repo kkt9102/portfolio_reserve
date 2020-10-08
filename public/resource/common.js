@@ -34,7 +34,17 @@ function popup_item(){
         var $selected_on = $('#section-3 > .extraction-section > .extraction-list > ul > li').find('> .selected');
 
         $selected_on.removeClass('selected');
-    })  
+    });  
+    $('#mobile-3> .extraction-section> .extraction-list > ul > li > a').click(function(){
+        var $selected = $(this).parent().find(' > .popup');
+
+        $selected.addClass('selected');
+    });
+    $('#mobile-3 > .extraction-section > .extraction-list > ul > li > .popup > .close-btn').click(function(){
+        var $selected_on = $('#mobile-3> .extraction-section > .extraction-list > ul > li').find('> .selected');
+
+        $selected_on.removeClass('selected');
+    });  
 }
 /* scroll-guide-btn moving */
 function guide_arrow() {

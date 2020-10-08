@@ -47,3 +47,21 @@
     bottom:0;
     opacity: .3;
 }
+/* mobile-view 커스텀 */
+#mobile-3 > .extraction-section > .title {
+    padding-top: 50px;
+}
+#mobile-3 > .extraction-section > .title > img {
+    width: 100%;
+}
+#mobile-3 > .extraction-section > .text-box > .title-1 {
+    margin-top: 20px;
+}
+#mobile-3 > .extraction-section > .text-box > .title-2 {
+    margin-top: 5px;
+}
+#mobile-3 > .extraction-section> .extraction-list > ul > li > a > img {
+    transition: box-shadow .3s;
+    height: 200px;
+    margin-top: 20px;
+}

@@ -21,24 +21,27 @@
     <link rel="stylesheet" href="./resource/location.css">
     <link rel="stylesheet" href="./resource/footer.css">
     <link rel="stylesheet" href="./resource/popup.css">
+    <!-- media -->
+    <link rel="stylesheet" href="./resource/media.css">
     <!-- coffee info stylesheet -->
     <link rel="stylesheet" href="./resource/coffee-info.css">
     <!-- javascript -->
     <script src="./resource/common.js"></script>
     <script src="./resource/location.js"></script>
+    <script src="./resource/coffee-info.js"></script>
 </head>
 
 <body>
 
     <!-- top-menu-bar HTML -->
-    <div class="menu-btn fixed">
+    <div class="menu-btn fixed pc-view">
         <div class="bg-976d3f"></div>
         <div class="bg-976d3f"></div>
         <div class="bg-976d3f"></div>
     </div>
-    <div class="menu-box fixed">
+    <div class="menu-box fixed pc-view">
         <ul class="color-bbb font-size-35">
-            <li><a href="#" class="inline-block" onClick="scroll_move('1')"><span>HOME</span></a></li>
+            <li><a href="/portfolio/reserve/public/index.php" class="inline-block" onClick="scroll_move('1')"><span>HOME</span></a></li>
             <li><a href="#" class="inline-block" onClick="scroll_move('2')"><span>WHAT'S RESERVE™</span></a></li>
             <li><a href="#" class="inline-block" onClick="scroll_move('3')"><span>EXTRACTION</span></a></li>
             <li><a href="#" class="inline-block" onClick="scroll_move('4')"><span>COFFEE</span></a></li>

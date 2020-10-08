@@ -42,3 +42,13 @@
     padding: 5px 10px;
     font-size: 13px;
 }
+/* mobile-view 커스텀 */
+#mobile-5 > .mobile-store-section > .title {
+    padding-top: 50px;
+}
+#mobile-5 > .mobile-store-section > .title > img {
+    width:100%;
+}
+#mobile-5 > h6 {
+    margin: 5px 0 10px 0;
+}

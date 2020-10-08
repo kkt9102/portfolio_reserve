@@ -31,7 +31,7 @@
     font-weight: bold;
     margin-top: 40px;
 }
-#section-1  > .home-section > .guide-arrow > .btn {
+#section-1 > .home-section > .guide-arrow > .btn {
     background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -40,4 +40,30 @@
     height: 30px;
     bottom:-150px;
     cursor: pointer;
+}
+/* mobile-1 커스텀 */
+#mobile-1 > .mobile-bg {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-back-img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 0;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: inherit;
+    opacity: 15%;
+}
+#mobile-1 > .mobile-logo {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/main-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mobile-1 > .text-box > .title-2 {
+    padding-top: 20px;
 }

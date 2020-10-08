@@ -70,3 +70,30 @@
 #footer > .footer-section > .bottom-text > p > span {
     margin: 0 5px;
 }
+/* mobile-view 커스텀 */
+#mobile-footer > .footer-section::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #976d3f;
+    top:0;
+    left:0;
+}
+#mobile-footer >  .footer-section > .footer-menu-box-1 > ul > li {
+    width: 100%;
+    margin: 8px 0;
+}
+#mobile-footer >  .footer-section > div > .footer-menu-box-2 > ul > li {
+    border-bottom:1px solid #976d3f;
+    
+}
+#mobile-footer >  .footer-section > div > .footer-menu-box-2 > ul > li > a {
+    padding: 5px;
+}
+#mobile-footer >  .footer-section > .bottom-text {
+    font-size: 11px;
+}
+#mobile-footer >  .footer-section > .bottom-text > .buisnessman > span {
+    margin: 8px 0;
+}

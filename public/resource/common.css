@@ -105,7 +105,7 @@ a {
 }
 /* 커스텀 */
 .con {
-    max-width: 1200px;
+    max-width: 80%;
 }   
 .color-976d3f {
     color:#976d3f;
@@ -119,6 +119,9 @@ a {
 .font-weight-bold {
     font-weight: bold;
 }
+.font-weight-500 {
+    font-weight: 500;
+}
 .font-size-35 {
     font-size: 35px;
 }
@@ -128,6 +131,18 @@ a {
 .font-size-21 {
     font-size: 21px;
 }
+.font-size-20 {
+    font-size: 20px;
+}
+.font-size-19 {
+    font-size: 19px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-16 {
+    font-size: 16px;
+}
 .font-size-15 {
     font-size:15px;
 }
@@ -136,6 +151,9 @@ a {
 }
 .font-size-13 {
     font-size: 13px;
+}
+.font-size-12 {
+    font-size: 12px;
 }
 /* alerted 커스텀 */
 .alerted.active {
@@ -261,4 +279,10 @@ body {
     height: 100vh;
 }
 
-
+/* mobie-view */
+.mobile-view {
+    display: none;
+}
+#mobile-1, #mobile-2, #mobile-3, #mobile-4, #mobile-5 {
+    height: 100vh;
+}

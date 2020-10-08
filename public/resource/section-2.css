@@ -35,3 +35,33 @@
     bottom:0;
     opacity: 30%;
 }
+/* monile-view 커스텀 */
+#mobile-2 > .about-reserve-section > .title {
+    width: 100%;
+    margin-top: 50px;
+}
+#mobile-2 > .about-reserve-section > .text-box > .title-1 {
+    margin-top: 20px;
+    letter-spacing: -1.5px;
+}
+#mobile-2 > .about-reserve-section > .text-box > .title-2 {
+    margin-top: 18px;
+    letter-spacing: -1.5px;
+}
+#mobile-2 > .about-reserve-section > .text-box > .sub-text {
+    margin-top: 18px;
+    letter-spacing: -1.2px;
+    line-height: 2;
+}
+#mobile-2 > .about-reserve-section >  .bottom-img > .img {
+    background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/reserve-info.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    opacity: 30%;
+}

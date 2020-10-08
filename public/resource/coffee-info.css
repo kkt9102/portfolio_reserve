@@ -19,6 +19,55 @@
 .coffee-info > .sub-line > .this-position > a:hover {
     text-decoration: underline;
 }
+.coffee-info > .sub-line > .this-position > .coffee-list {
+    cursor: pointer;
+}
+.coffee-info > .sub-line > .this-position > .coffee-list:hover {
+    text-decoration: underline;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list {
+    left:5%;
+    width: 100%;
+    white-space: nowrap;
+    display: none;
+    z-index: 50;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list.active {
+    display: block;
+    
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul {
+    margin-top: 20px;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul > li > a {
+    height: 20px;
+    margin: 10px 0;
+    position: relative;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul > li > a::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    bottom:-5px;
+    left:0;
+    background: #976d3f;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul > li > a > div {
+    position: absolute;
+    transition: opacity .3s;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul > li > a > .kor {
+    opacity: 0;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul > li:hover > a > .kor {
+    opacity: 1;
+}
+.coffee-info > .sub-line > .this-position > .drop-down-list > ul > li:hover > a > .eng {
+    opacity: 0;
+    left:0;
+    white-space: nowrap;
+}
 .coffee-info > .coffee-item-box {
     margin-top: 40px;
 }
@@ -28,10 +77,7 @@
 }
 .coffee-info > .coffee-item-box > .coffee-img {
     height: 600px;
-}
-.Ukambani > .coffee-item-box > .coffee-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-info.jpg) no-repeat 0 0;
-    background-size: contain;
+    margin-bottom: 20px;
 }
 
 .coffee-info > .coffee-item-box > .coffee-characteristic::after {
@@ -84,22 +130,7 @@
     letter-spacing: -0.5px;
     word-spacing: 1.5px;
 }
-.coffee-info > .coffee-story > .origin-map {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
-    background-size: contain;
-    width: 335px;
-    height: 119px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-.coffee-info > .design-story > .design-img {
-    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-design.png) no-repeat 0 0;
-    background-size: contain;
-    width: 335px;
-    height: 124px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
+
 .coffee-info .score-on {
     background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/info-score-on.png) no-repeat 0 0;
     background-size: contain;
@@ -113,4 +144,91 @@
     width: 20px;
     height: 20px;
     display: inline-block;
+}
+
+
+/* coffee-info 개별 이미지 커스텀 */
+    /* Ukambani 커스텀 */
+.Ukambani > .coffee-item-box > .coffee-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-info.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+.Ukambani >  .coffee-story > .origin-map {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 119px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.Ukambani >  .design-story > .design-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/ukambani-design.png) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 124px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+    /* Finca-La-reserva 커스텀 */
+.Finca-La-reserva > .coffee-item-box > .coffee-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/la-reserva-info.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+.Finca-La-reserva > .coffee-story > .origin-map {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/map-world-img-1.jpg) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 119px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.Finca-La-reserva > .design-story > .design-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/la-reserva-design.png) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 124px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+    /* rwanda-hingakawa 커스텀 */
+.rwanda-hingakawa > .coffee-item-box > .coffee-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/hingakawa-info.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+.rwanda-hingakawa > .coffee-story > .origin-map {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/productInvestigate_img02.jpg?dummyadsad1234) no-repeat 0 0;
+    background-size: cover;
+    width: 335px;
+    height: 119px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.rwanda-hingakawa > .design-story > .design-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/hingakawa-design.png) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 124px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+    /* jamaica-blue-mountain 커스텀 */
+.jamaica-blue-mountain > .coffee-item-box > .coffee-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/blue-mountain-info.jpg) no-repeat 0 0;
+    background-size: contain;
+}
+.jamaica-blue-mountain > .coffee-story > .origin-map {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/productInvestigate_img02.jpg?dummyadsad1234) no-repeat 0 0;
+    background-size: cover;
+    width: 335px;
+    height: 119px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.jamaica-blue-mountain > .design-story > .design-img {
+    background: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/blue-mountain-design.png) no-repeat 0 0;
+    background-size: contain;
+    width: 335px;
+    height: 124px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
