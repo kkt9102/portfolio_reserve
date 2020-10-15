@@ -4,16 +4,13 @@
 .store-section > .title {
     padding-top: 80px;
 }
-.store-section > .title > img {
-    width: auto;
-    height: 35px;
-}
+
 .store-section > h5 {
     margin: 10px 0 20px 0;
 }
 /* kakao-map popup 커스텀 */
 #map {
-    border:2px solid #976d3f;
+    border:2px solid #976d3f;   
 }
 
 .store-popup {

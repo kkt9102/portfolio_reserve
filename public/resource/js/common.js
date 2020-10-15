@@ -50,10 +50,10 @@ function popup_item(){
 function guide_arrow() {
     $(document).ready(function () {
         $('#section-1  > .home-section >.guide-arrow > .btn').animate({
-            bottom: -150 + "px"
+            bottom: -8 + "%"
         }, 500, function () {
             $('#section-1  > .home-section >.guide-arrow > .btn').animate({
-                bottom: -155 + "px"
+                bottom: -8.5 + "%"
             }, 500, guide_arrow);
         });
     })

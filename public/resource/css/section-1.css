@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top:0;
     left:0;
     z-index: inherit;
@@ -17,19 +17,20 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 350px;
+    width: 100%;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-    top: 150px;
+    top: 100px;
 }
 #section-1 > .home-section > .text-box > .title-1 {
+    font-size: 2rem;
     margin-top: 200px;
 }
 #section-1 > .home-section > .text-box > .title-2 {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 5%;
 }
 #section-1 > .home-section > .guide-arrow > .btn {
     background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/reserve/arrow.png);
@@ -38,7 +39,7 @@
     background-size: contain;
     width: 80px;
     height: 30px;
-    bottom:-150px;
+    bottom:-8%;
     cursor: pointer;
 }
 /* mobile-1 커스텀 */

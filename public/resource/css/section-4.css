@@ -8,12 +8,9 @@
 
 /* #section-4 커스텀 */
 #section-4 > .reserve-coffee-section > .title {
-    padding-top: 80px;
+    margin-top: 50px;
 }
-#section-4 > .reserve-coffee-section > .title > img {
-    width: auto;
-    height: 35px;
-}
+
 #section-4 > .reserve-coffee-section > .text-box > .title-1 {
     margin-top: 20px;
     font-size: 21px;
@@ -31,7 +28,6 @@
 #section-4 > .reserve-coffee-section > .coffee-list > ul > li > a > .img {
     background-repeat: no-repeat;
     background-size: contain;
-    width:250px;
     height: 260px;
     margin-left: auto;
     margin-right: auto;

@@ -13,22 +13,23 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="./resource/common.css">
-    <link rel="stylesheet" href="./resource/section-1.css">
-    <link rel="stylesheet" href="./resource/section-2.css">
-    <link rel="stylesheet" href="./resource/section-3.css">
-    <link rel="stylesheet" href="./resource/section-4.css">
-    <link rel="stylesheet" href="./resource/location.css">
-    <link rel="stylesheet" href="./resource/footer.css">
-    <link rel="stylesheet" href="./resource/popup.css">
+    <link rel="stylesheet" href="./resource/font/font.css">
+    <link rel="stylesheet" href="./resource/css/common.css">
+    <link rel="stylesheet" href="./resource/css/section-1.css">
+    <link rel="stylesheet" href="./resource/css/section-2.css">
+    <link rel="stylesheet" href="./resource/css/section-3.css">
+    <link rel="stylesheet" href="./resource/css/section-4.css">
+    <link rel="stylesheet" href="./resource/css/location.css">
+    <link rel="stylesheet" href="./resource/css/footer.css">
+    <link rel="stylesheet" href="./resource/css/popup.css">
     <!-- media -->
-    <link rel="stylesheet" href="./resource/media.css">
+    <link rel="stylesheet" href="./resource/css/media.css">
     <!-- coffee info stylesheet -->
-    <link rel="stylesheet" href="./resource/coffee-info.css">
+    <link rel="stylesheet" href="./resource/css/coffee-info.css">
     <!-- javascript -->
-    <script src="./resource/common.js"></script>
-    <script src="./resource/location.js"></script>
-    <script src="./resource/coffee-info.js"></script>
+    <script src="./resource/js/common.js"></script>
+    <script src="./resource/js/location.js"></script>
+    <script src="./resource/js/coffee-info.js"></script>
 </head>
 
 <body>

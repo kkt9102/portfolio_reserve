@@ -16,7 +16,7 @@
     <div class="home-section relative con">
         <div class="main-logo relative"></div>
         <div class="text-box color-976d3f text-align-center">
-            <div class="title-1 font-size-30">스타벅스 리저브™매장에서 프리미엄 커피를 만나다.</div>
+            <div class="title-1">스타벅스 리저브™매장에서 프리미엄 커피를 만나다.</div>
             <h1 class="title-2">"차별화된 원두로 최상의 경험을 제공합니다."</h1>
         </div>
         <div class="guide-arrow">

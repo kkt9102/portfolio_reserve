@@ -23,8 +23,8 @@ li >.popup.selected{
     visibility:visible;
 }
 .popup {
-    width:700px;
-    height:620px;
+    width:80%;
+    height:650px;
     border:1px solid #000;
     background: #000;
     left: 50%;
@@ -74,7 +74,7 @@ li >.popup.selected{
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
-    width:600px;
+    width:70%;
     height:260px;
     margin-left: auto;
     margin-right: auto;

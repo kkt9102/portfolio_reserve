@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'NanumBarunGothicWeb';
+    src: url(NanumBarunGothicWeb.woff) format('woff');
+}
+.font-nb-400 {
+    font-family: 'NanumBarunGothicWeb';
+}
+@font-face {
+    font-family: 'NanumBarunGothicWebBold';
+    src: url(NanumBarunGothicWebBold.woff) format('woff');
+}
+.font-nb-700 {
+    font-family: 'NanumBarunGothicWebBold';
+}

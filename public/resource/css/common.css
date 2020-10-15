@@ -196,8 +196,8 @@ a {
 .menu-btn {
     width: 50px;
     height: 30px;
-    left:80px;
-    top:80px;
+    left:4%;
+    top:8%;
     cursor: pointer;
     z-index: 50;
 }
@@ -242,11 +242,10 @@ a {
 }
 .menu-box.active {
     left:0;
-   
 }
 .menu-box > ul {
-    margin-left:160px;
-    margin-top:160px;
+    margin-left:10%;
+    margin-top:10%;
 }
 .menu-box > ul > li > a {
     padding: 20px 30px;
@@ -285,4 +284,9 @@ body {
 }
 #mobile-1, #mobile-2, #mobile-3, #mobile-4, #mobile-5 {
     height: 100vh;
+}
+
+.title > img {
+    max-width: 100%;
+    max-height: 35px;
 }
